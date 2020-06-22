@@ -1,7 +1,7 @@
 {
-  "name": "hyperdrive-network-speed",
-  "version": "2.1.0",
-  "description": "track hyperdrive archive upload and download speeds",
+  "name": "dwebfs-network-speed",
+  "version": "1.0.0",
+  "description": "Get dWebFS network speeds (download/upload speeds).",
   "main": "index.js",
   "scripts": {
     "test": "tape test.js | tap-spec"
@@ -21,8 +21,8 @@
     "speedometer": "^1.0.0"
   },
   "devDependencies": {
-    "hyperdiscovery": "^7.0.0",
-    "hyperdrive": "^9.0.0",
+    "dweb-discovery": "^1.0.0",
+    "dwebfs": "^1.0.0",
     "pump": "^3.0.0",
     "random-access-memory": "^2.3.0",
     "standard": "^11.0.0",
