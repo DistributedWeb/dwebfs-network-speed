@@ -1,14 +1,14 @@
-# hyperdrive-network-speed
+# dwebfs-network-speed
 
-[![Travis](https://img.shields.io/travis/datproject/hyperdrive-network-speed.svg?style=flat-square)](https://travis-ci.org/datproject/hyperdrive-network-speed) [![npm](https://img.shields.io/npm/v/hyperdrive-network-speed.svg?style=flat-square)](https://npmjs.org/package/hyperdrive-network-speed)
+[![Travis](https://img.shields.io/travis/datproject/dwebfs-network-speed.svg?style=flat-square)](https://travis-ci.org/datproject/dwebfs-network-speed) [![npm](https://img.shields.io/npm/v/dwebfs-network-speed.svg?style=flat-square)](https://npmjs.org/package/dwebfs-network-speed)
 
-Get upload and download speeds for a hyperdrive archive.
+Get upload and download speeds for a dwebfs archive.
 
 ## Usage
 
 ```js
-var archive = hyperdrive('.dat')
-var swarm = hyperdiscovery(archive)
+var archive = dwebfs('.dweb')
+var swarm = dweb-discovery(archive)
 var speed = networkSpeed(archive, {timeout: 1000})
 
 setInterval(function () {
@@ -21,7 +21,7 @@ setInterval(function () {
 
 ### `var speed = networkSpeed(archive, [opts])`
 
-* `archive` is a hyperdrive archive.
+* `archive` is a dwebfs archive.
 * `opts.timeout` is the only option. Speed will be reset to zero after the timeout.
 
 #### `speed.uploadSpeed`

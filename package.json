@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/joehand/hyperdrive-network-speed.git"
+    "url": "git+https://github.com/joehand/dwebfs-network-speed.git"
   },
   "author": "Joe Hand <joe@hand.email> (https://joeahand.com/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/joehand/hyperdrive-network-speed/issues"
+    "url": "https://github.com/joehand/dwebfs-network-speed/issues"
   },
-  "homepage": "https://github.com/joehand/hyperdrive-network-speed#readme",
+  "homepage": "https://github.com/joehand/dwebfs-network-speed#readme",
   "dependencies": {
     "debug": "^3.1.0",
     "speedometer": "^1.0.0"
